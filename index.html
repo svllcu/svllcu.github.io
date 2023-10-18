@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Directory WEB HOME</title>
+  <title>Test-HTML 5</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -35,74 +35,4 @@
     }
   </style>
 </head>
-<body>
-  <h1 class="center">Directory WEB HOME</h1>
-
-  <div class="center">
-    <label for="menu">Seleziona un'opzione:</label>
-    <select id="menu" onchange="showLinks()">
-      <option value="">---Scegli---</option>
-      <option value="remoto">Remoto</option>
-      <option value="locale">Locale</option>
-    </select>
-  </div>
-
-  <div id="linksContainer" class="center"></div>
-
-  <script>
-    function openLink(url) {
-      window.open(url, "_blank");
-    }
-
-    function showLinks() {
-      var selectedOption = document.getElementById("menu").value;
-      var linksContainer = document.getElementById("linksContainer");
-      linksContainer.innerHTML = "";
-
-      if (selectedOption === "remoto") {
-        var remotoLinks = [
-          { name: "DSNAS", url: "https://nas.homelab.v6.army" },
-          { name: "PIHOLE", url: "https://dns.homelab.v6.army/admin" },
-          { name: "FIRTZ", url: "https://fritz.homelab.v6.army" },
-          { name: "WEBDAV", url: "https://webdav.homelab.v6.army" },
-          { name: "RDP", url: "http://rdp.homelab.v6.army" }
-        ];
-
-        for (var i = 0; i < remotoLinks.length; i++) {
-          var link = remotoLinks[i];
-          var button = document.createElement("button");
-          button.textContent = link.name;
-          button.style.backgroundColor = "#4CAF50";
-          button.style.color = "white";
-          button.onclick = function(url) {
-            return function() {
-              openLink(url);
-            };
-          }(link.url);
-          linksContainer.appendChild(button);
-        }
-      } else if (selectedOption === "locale") {
-        var localeLinks = [
-          { name: "FRITZ", url: "https://192.168.188.1" },
-          { name: "PIHOLE", url: "http://192.168.188.146/admin" },
-          { name: "DSNAS", url: "http://192.168.188.84:5000" }
-        ];
-
-        for (var j = 0; j < localeLinks.length; j++) {
-          var link = localeLinks[j];
-          var button = document.createElement("button");
-          button.textContent = link.name;
-          button.style.backgroundColor = "#4CAF50";
-          button.style.color = "white";
-          button.onclick = function(url) {
-            return function() {
-              openLink(url);
-            };
-          }(link.url);
-          linksContainer.appendChild(button);
-        }
-      }
-    }
-  </script>
-</body>
 </html>
