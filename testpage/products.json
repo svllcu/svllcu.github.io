@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name":" Aggenda Executove ",
+        "price": 200,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Aggenda Floreale",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Aggenda da Viaggio",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Aggenda Benefica",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Aggenda Smart",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Aggenda da Scrivania",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" Aggenda per Studenti",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" Aggenda vintage",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 10,
+        "name":" Aggenda da Borsa",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 11,
+        "name":" Aggenda Bullet Journal",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 12,
+        "name":" Aggenda Astronomica",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 13,
+        "name":" Aggenda professionale",
+        "price": 200,
+        "image": "image/8.png"
+    }
+
+]
