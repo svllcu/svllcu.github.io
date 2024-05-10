@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+header{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-between;
+    img{
+        width: 15%;
+        /* margin-right: 200px; */
+        margin-right: 20%;
+    }
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+footer{
+    text-align: center;
+    width: 100%;
+    img{
+        width: 8%;
+    }
+}
+body.paginaLogin header, main, footer{
+    opacity: 0.2;
+}
+body.paginaLogin .pplogin{
+    display: block;
+    text-align: center;
+    opacity: 100%;
+}
+
+main{
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
