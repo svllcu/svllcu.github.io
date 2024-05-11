@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name":" Aggenda Executove ",
+        "price": 20,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Aggenda Floreale",
+        "price": 6,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Aggenda da Viaggio",
+        "price": 8,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Aggenda Benefica",
+        "price": 10,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Aggenda Smart",
+        "price": 12,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" Aggenda Luminosa",
+        "price": 16,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Aggenda da Scrivania",
+        "price": 9,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" Aggenda per Studenti",
+        "price": 10,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" Aggenda vintage",
+        "price": 13,
+        "image": "image/8.png"
+    },
+    {
+        "id": 10,
+        "name":" Aggenda da Borsa",
+        "price": 11,
+        "image": "image/8.png"
+    },
+    {
+        "id": 11,
+        "name":" Aggenda Bullet Journal",
+        "price": 20,
+        "image": "image/8.png"
+    },
+    {
+        "id": 12,
+        "name":" Aggenda Astronomica",
+        "price": 17,
+        "image": "image/8.png"
+    },
+    {
+        "id": 13,
+        "name":" Aggenda professionale",
+        "price": 25,
+        "image": "image/8.png"
+    }
+
+]
