@@ -1,6 +1,10 @@
 body{
     font-family: Helvetica, sans-serif;
     color: black;
+    position: relative;
+}
+body .pplogin{
+    display: none;
 }
 header{
     display: flex;
@@ -24,21 +28,33 @@ header{
     }
 }
 footer{
+    opacity: 1;
     text-align: center;
     width: 100%;
+    font-size: 10pt;
     img{
         width: 8%;
     }
 }
-body.paginaLogin header, main, footer{
+body.paginaLogin .pplogin{
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* top, left e trasform servono per cerntrare il coso anche se non ri centra--margin provato dio solo sa perche non va */
+    text-align: center;
+    opacity: 1;
+    z-index: 10;
+    background-color: greenyellow;
+    width: 400px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+body.paginaLogin header, footer, main{
     opacity: 0.2;
 }
-body.paginaLogin .pplogin{
-    display: block;
-    text-align: center;
-    opacity: 100%;
-}
-
 main{
     width: 900px;
     max-width: 90%;
