@@ -28,7 +28,6 @@ header{
     }
 }
 footer{
-    opacity: 1;
     text-align: center;
     width: 100%;
     font-size: 10pt;
@@ -51,10 +50,42 @@ body.paginaLogin .pplogin{
     height: 200px;
     border: solid black 2px;
     border-radius: 10px;
+    form{
+        margin-top: 20px;
+        input{
+            padding: 3px;
+            margin: 4px;
+        }
+    }
 }
-body.paginaLogin header, footer, main{
+button.closel{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 3px;
+    padding: 0px;
+}
+.pplogin .flex-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.pplogin .flex-login h2 {
+    margin: 0;
+    flex: 1; 
+}
+body.paginaLogin header{
     opacity: 0.2;
 }
+body.paginaLogin footer{
+    opacity: 0.2;
+}
+body.paginaLogin main{
+    opacity: 0.2;
+}
+/* dio solo sa perche ma uno con tutti e tre i cosi non funzionava */
 main{
     width: 900px;
     max-width: 90%;
