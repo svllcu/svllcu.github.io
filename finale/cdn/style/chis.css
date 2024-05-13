@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+}
+div.flex:hover{
+    background-color: lightblue;
+    transition: 0.6s;
+}
+div.papala{
+    margin: auto;
+    vertical-align: middle;
+    img{
+        width: 40%;
+    }
+    p{
+        margin: auto;
+        width: 50%;
+    }
+}
+div.spaz{
+    height: 30px;
+}

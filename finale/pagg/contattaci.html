@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../cdn/imgs/favicon.ico">
+    <link rel="stylesheet" href="../cdn/style/gen.css">
+    <link rel="stylesheet" href="../cdn/style/cont.css">
+    <title>Aggenda | Contattaci</title>
+</head>
+<body class="">
+    <div class="pplogin">
+        <div class="flex-login">
+            <h2>Login</h2>
+            <button class="closel">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                </svg>
+            </button>
+        </div>          
+        <form action="">
+            <input type="email" required placeholder="*mail@email.com"><br>
+            <input type="password" required placeholder="*password"><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    <!-- attenzione! devo in qualche modo fixare che quando non ho la claase il footer torni normale -->
+    </div>
+    <header>
+        <a href="../index.html">
+            <img src="../cdn/imgs/logotag.png" alt="Logo">
+        </a>
+        <!-- <img src="../cdn/imgs/logotag.png" alt="Logo"> -->
+        <a href="chisiamo.html">Chi Siamo</a>
+        <a href="contattaci.html">Contattaci</a>
+        <a href="../cdn/vendita/index.html">Shop</a>
+        <button class="profpic">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+            </svg>          
+        </button>
+    </header>
+    <main>
+        <div class="gen">
+            <div class="mappa">
+                <p>Trovi i nostri uffici in Viale Sarca 223 Milano MI</p>
+                <table border="2px">
+                    <tr>
+                        <td>LUN-VEN</td>
+                        <td>8:30-17:30</td>
+                    </tr>
+                    <tr>
+                        <td>SAB</td>
+                        <td>8:30-12:30</td>
+                    </tr>
+                    <tr>
+                        <td>DOM</td>
+                        <td>CHIUSO</td>
+                    </tr>
+                </table>
+                <iframe width="400" height="270" src="https://www.openstreetmap.org/export/embed.html?bbox=9.210048615932466%2C45.51998112444604%2C9.212248027324678%2C45.52125716680969&amp;layer=mapnik&amp;marker=45.52062008889366%2C9.21114832162857" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=45.52062&amp;mlon=9.21115#map=19/45.52062/9.21115">Visualizza mappa ingrandita</a></small>
+            </div>
+            <div class="formc">
+                <form method="POST" action="mailto:giuliaiustina.cozma.studente@einaudigramsci.edu.it" enctype="text/plain">
+                    <h2>Invia una richiesta</h2>
+                    <fieldset>
+                        <label>Nome e Cognome</label><input type="text" placeholder="Mario Rossi" name="nome" required autofocus="autofocus">
+                    </fieldset>
+                    <fieldset>
+                        <label>Telefono</label><input type="tel" name="tel">
+                    </fieldset>
+                    <fieldset>
+                        <label>Email</label><input type="email" name="email" placeholder="user@dominio.it" required>
+                    </fieldset>	
+                    <fieldset>
+                        <label>Motivo</label>
+                        <select name="motivo">
+                            <option value="assistenza">SELEZIONA MOTIVO</option>
+                            <option value="assistenza">Assistenza POST</option>
+                            <option value="assistenza">Assistenza PRE</option>
+                            <option value="assistenza">Consulenza</option>
+                            <option value="commerciale">Rep.Commerciale</option>
+                            <option value="legale">Rep.Legale</option>
+                        </select>
+                    </fieldset>	
+                    <fieldset>
+                        <label>Messaggio</label>
+                        <textarea name="commenti" placeholder="Inserisci qui il tuo messaggio" maxlength="100" wrap="soft"></textarea>
+                    </fieldset>	
+                    <fieldset>
+                        <input type="submit" value="Invia form">
+                        <input type="reset" name="resetta" id="resetta">
+                    </fieldset>
+            </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <a href="">
+            <img src="../cdn/imgs/logotag.png" alt="Logo">
+        </a>
+        <p>
+            Aggenda S.r.l. Viale Sarca 223, 20126 Milano - Tel. 
+            <a href="tel:+3900200120001">00200120001</a> - PIVA e CF 000001111022 | R.E.A. 120000000 | Capitale sociale interamente versato: €500.000,00
+            <br>Aggenda è un marchio registrato - (c)2024 Aggenda. Tutti i diritti riservati.
+        </p>
+    </footer>
+    <div class="sec-nn">
+        <!-- qui solo per occupare spazio e sperrare di fixare il provlema dell'opacita del footer -->
+    </div>
+    <script src="../cdn/script/loginpag.js"></script>
+</body>
+</html>

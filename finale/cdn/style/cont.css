@@ -1,0 +1,20 @@
+div.mappa{
+    table{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    p{
+        margin-bottom: 2px;
+    }
+}
+div.gen{
+    display: flex;
+    justify-content: space-between;
+}
+div.formc{
+    width: 45%;
+    form{
+        width: 100%;
+    }
+}

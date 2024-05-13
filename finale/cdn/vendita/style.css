@@ -13,9 +13,7 @@ svg{
     width: 30px;
 }
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 100%;
     padding: 20px 0;
 }
 header .icon-cart span {

@@ -1,0 +1,20 @@
+div.primap{
+    /* display: flex; */
+    h1{
+        font-size: 50pt;
+        width: 500px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    p{
+        margin: 0px;
+        text-align: left;
+        width: 400px;
+    }
+    button{
+        border-radius: 20px;
+        width: 10%;
+        height: 30px;
+    }
+}
