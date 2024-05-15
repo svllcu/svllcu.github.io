@@ -25,13 +25,12 @@ closeCart.addEventListener('click',() =>{
     console.log('chiuditiSedano')
 })
 
+//modifica la classe perche si veda il coso del carrello
+
 //https://developer.mozilla.org/en-US/docs/Web/API/fetch
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 //https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 //https://developer.mozilla.org/en-US/docs/Web/API/Request/json
-
-
-
 
 const addDataToHTML = () => {
         if(products.length > 0)
@@ -51,8 +50,8 @@ const addDataToHTML = () => {
             });
         }
     }
-
-
+// questa aggiunge prodotti nel carrello, cioe prima controlla se ci sono prodotti nella lista dei prodotti che in qsto caso 
+// è il coso jscon e per ciascuno fa il div html con i vasi dati (vedi $ per rif)
 listProductHTML.addEventListener('click', (event) => {
     let positionClick = event.target;
     if(positionClick.classList.contains('addCart')){
@@ -62,7 +61,8 @@ listProductHTML.addEventListener('click', (event) => {
         addToCart(product_id);
     }
 })
-
+// quando si clicca se ce il coso da ggiungere al carrello lo aggiunge al carrello e fa andare la funzione che ce qua sotto con l'id del coso
+// per identificare il prodotto--l'id era stato messo prima preso dalla cosa json
 const addToCart = (product_id) => {
     let positionThisProductInCart = cart.findIndex((value) => value.product_id == product_id);
     if(cart.length <= 0){
@@ -82,7 +82,9 @@ const addToCart = (product_id) => {
     addCartToMemory();
     console.log(cart);
 }
-
+// funzione che aggiunge al carrello-- prima controlla se il carrello è vuoto, se lo è aggiunge nella lista carrello il prodotto
+// con la quantità di uno --altrimenti controlla se ce gua il prodotto con lo stesso id E se non esiste pusha e lo aggiunge 
+// altriemnti aggiunge la quantita di uno
 // https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // AO SISTEMA
@@ -116,7 +118,7 @@ const addCartToHTML = () => {
     }
     iconCartSpan.innerText = totalQuantity;
 }
-
+// questo serrve praticamente perche da l'elenco tipo farto dalla funzione precedente lo inserisce nell'html
 const addCartToMemory = () => {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
@@ -133,6 +135,7 @@ listCartHTML.addEventListener('click', (event) => {
         changeQuantityCart(product_id, type);
     }
 })
+//vabbe con sto coso praticamente modifico la quantita del prodotto nel carrello
 // https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
 // Il || significherebbe oppure
@@ -158,6 +161,7 @@ const changeQuantityCart = (product_id, type) => {
     addCartToMemory();
 }
 // splice per togliere
+//modifica qta dell'elenco collegato all'event istener di prima
 
 const initApp = () => {
     fetch('products.json')
@@ -172,3 +176,5 @@ const initApp = () => {
     })
 }
 initApp();
+
+//questo serve per ecuperare i dati dal coso e poi fa partire le funzioni varie 
