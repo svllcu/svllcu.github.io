@@ -1,0 +1,15 @@
+div.mezzo{
+    width: 50%;
+    text-align: left;
+    h2{
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 0px;
+        ul{
+            margin-top: 0px; 
+            /* non funziona il margne */
+            line-height: 500px;
+        }
+    }
+}
