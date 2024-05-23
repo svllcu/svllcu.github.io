@@ -1,15 +1,44 @@
 div.mezzo{
     width: 50%;
-    text-align: left;
     h2{
         margin-bottom: 0px;
     }
     p{
         margin-top: 0px;
-        ul{
-            margin-top: 0px; 
-            /* non funziona il margne */
-            line-height: 500px;
-        }
+        margin-bottom: 3px;
+    }
+    ul{
+        margin-top: 0px; 
+        /* non funziona il margne */
+        /* line-height: 500px; */
+    }
+}
+.lt{
+    text-align: left;
+    margin-right: 50%;
+}
+.rt{
+    text-align: right;
+    margin-left: 50%;
+}
+.flexrw{
+    display: flex;
+}
+div.cen{
+    text-align: center;
+    margin-top: 50px;
+    h2{
+        margin-bottom: 5px;
+    }
+    button{
+        height: 35px;
+        border-radius: 15px;
+        margin-top: 0px;
+        color: black;
+        background-color: lightblue;
+    }
+    button:hover{
+        color: lightblue;
+        background-color: black;
     }
 }
