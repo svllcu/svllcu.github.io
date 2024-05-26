@@ -42,8 +42,8 @@ const addDataToHTML = () => {
                 newProduct.dataset.id = product.id;
                 newProduct.classList.add('item');
                 newProduct.innerHTML = 
-                `<img src="${product.image}" alt="">
-                <h2>${product.name}</h2>
+                `<a href="prodotti.html?id=${product.id}"><img src="${product.image}" alt="">
+                <h2>${product.name}</h2></a>
                 <div class="price">€${product.price}</div>
                 <button class="addCart">
                     Aggiungi al Carrello
