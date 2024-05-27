@@ -1,5 +1,6 @@
 let params = getQueryParams();
 let productId = params['id'];
+console.log("scriptPAGINAsingolaPRODOTTO");
 function getQueryParams() {
     let params = {};
     window.location.search.substr(1).split('&').forEach(function (item) {

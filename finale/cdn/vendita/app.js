@@ -8,8 +8,9 @@ let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
 let products = [];
 let cart = [];
+let checkOut = document.querySelector('.checkOut');
 //qua definisco le costatnti che mi serovno per collegre lHTML con gli script
-
+console.log("scriptVENDITA");
 
 //la domanda resta la stassa:chi me lo ha fatto fare, non potevo fare quaslcosa di semplice, passero a fare i monologhi
 //diario di bordo perche piuttosto di continuare a scrivere JS rinuncio
@@ -21,12 +22,20 @@ let cart = [];
 iconCart.addEventListener('click', () => {
     body.classList.toggle('showCart')
     console.log('apritiSesamo')
-})
+});
 closeCart.addEventListener('click',() =>{
     body.classList.toggle('showCart')
     console.log('chiuditiSedano')
-})
-
+});
+checkOut.addEventListener('click',() =>{
+    alert('Errore, riprova più tardi')
+    cart = [];
+    console.log('tentaocheckout');
+    // console.log(cart)
+    localStorage.clear();
+    location.reload();
+});
+// https://stackoverflow.com/questions/7667958/clearing-localstorage-in-javascript
 //modifica la classe perche si veda il coso del carrello
 
 //https://developer.mozilla.org/en-US/docs/Web/API/fetch

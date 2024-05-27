@@ -1,4 +1,5 @@
 let body = document.querySelector('body');
+console.log("ScriptLOGINNNN");
 let profPic = document.querySelector('.profpic');
 let closeL = document.querySelector('.closel');
 
