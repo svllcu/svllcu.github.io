@@ -4,49 +4,49 @@
         "name":" Aggenda Executove ",
         "price": 20,
         "image": "image/1.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Per trascorrere un grande anno scolastico, serve una grande agenda! Prenditi tutto lo spazio che meriti con l’Agenda del Docente 13 Mesi Settimanale - 2024/2025.Perfetta per accompagnarti durante le attività e l’organizzazione della didattica, sarà il modo più colorato per fare da ponte tra agosto 2024 e agosto 2025!"
     },
     {
         "id": 2,
         "name":" Aggenda Floreale",
         "price": 6,
         "image": "image/2.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Se vuoi che le tue settimane vadano alla grande, devi dar loro più spazio! L'Agenda 16 mesi Settimanale Large dedica due pagine a ogni settimana, per 16 mesi super. Così, in una sola occhiata, potrai avere sotto controllo i tuoi impegni... e trovare lo spazio per le tue passioni!"
     },
     {
         "id": 3,
         "name":" Aggenda da Viaggio",
         "price": 8,
         "image": "image/3.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Non giudicare un libro dalla copertina... a meno che non sia la tua agenda! L'Agenda 16 Mesi Giornaliera ti farà passare 16 mesi dedicati alle tue passioni, proprio a partire dalla cover. C'è tutto lo spazio per organizzare le tue giornate: una pagina dedicata a ognuna, da settembre 2024 fino a dicembre 2025."
     },
     {
         "id": 4,
         "name":" Aggenda Benefica",
         "price": 10,
         "image": "image/4.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Una pagina al giorno leva lo sbatti di torno! Sì, per liberare il cervello da ogni pensiero per i prossimi 16 mesi ti basterà appuntarlo sull'Agenda 16 Mesi Giornaliera Medium.Grazie alle pagine dedicate a ogni singola giornata e al comodo formato, potrai scrivere tutto quello che ti serve ricordare da settembre 2024 a dicembre 2025!"
     },
     {
         "id": 5,
         "name":" Aggenda Smart",
         "price": 12,
         "image": "image/5.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "In latino, agenda significa le cose da fare. Nella lingua di Aggenda invece vuol dire quanti momenti indimenticabili ci aspettano??? Affronta i prossimi 18 mesi con il nostro stesso entusiasmo e la tua Agenda 18 mesi Settimanale Medium"
     },
     {
         "id": 6,
         "name":" Aggenda Luminosa",
         "price": 16,
         "image": "image/6.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Se ti sembra che alla fine della settimana manchi sempre troppo tempo, l’Agenda 16 Mesi Settimanale small è perfetta per te: ti basta voltare pagina per essere trasportato nella prossima. Un segreto piccolo e utile proprio come lei che potrai mettere in pratica da settembre 2024 a dicembre 2025"
     },
     {
         "id": 7,
         "name":" Aggenda da Scrivania",
         "price": 9,
         "image": "image/7.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "description" : "Desideri un futuro pieno di relax? Scegli l'Agenda 16 Mesi Giornaliera per tenerti compagnia nei prossimi 16 mesi. Ogni giorno avrà tutto lo spazio che merita sulla sua pagina dedicata e il tempo volerà dal primo giorno di settembre 2024 sino all'ultimo di dicembre 2025. Cin cin!"
     },
     {
         "id": 8,
@@ -59,36 +59,43 @@
         "id": 9,
         "name":" Aggenda vintage",
         "price": 13,
-        "image": "image/8.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "image": "image/9.png",
+        "description" : "Ti auguriamo giorni carichi di significato e ricchi di colore come la nostra agenda. Aprirla ti darà la carica per affrontare ogni giorno del 2024, che troverai impaginato in una pagina singola, per vivere sempre nel presente."
     },
     {
         "id": 10,
         "name":" Aggenda da Borsa",
         "price": 11,
-        "image": "image/8.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "image": "image/10.png",
+        "description" : "Conosci il paradosso del tempo? Le giornate sembrano lunghe, ma i mesi volano. Sull'Agenda 12+2 mesi Mensile Medium  basta girare una pagina e si è già a quello successivo! Ogni mese è organizzato su una doppia pagina con l'indicazione del numero della settimana. Perfetto per capire la quantità di impegni... o per rendersi conto di quanto manca alle vacanze! Il tempo passerà ancora più"
     },
     {
         "id": 11,
         "name":" Aggenda Bullet Journal",
         "price": 20,
-        "image": "image/8.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "image": "image/11.png",
+        "description" : "C’è chi pensa che l’anno cominci a gennaio e chi sente che il vero inizio è a settembre con il riprendere degli impegni. Ma un vero anno che si rispetti, dovrebbe cominciare subito con le vacanze estive. Se la pensi così, l’Agenda 18 Mesi Settimanale Medium è perfetta: puoi cominciare a programmare il tuo futuro da luglio 2024 e vivere, pagina dopo pagina, tutte le settimane che ti portano fino a dicembre 2025. Per chi vuole un’agenda che vada dal cocomero al panettone."
     },
     {
         "id": 12,
         "name":" Aggenda Astronomica",
         "price": 17,
-        "image": "image/8.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "image": "image/12.png",
+        "description" : "In una mano sta tutto il tuo futuro. No, non parliamo di chiromanzia, ma dell'Agenda 18 mesi Settimanale Small con Notebook, che racchiude in un piccolo spazio 18 mesi ancora da scrivere. Come sarà organizzato questo anno e mezzo? Da un lato avrai il dettaglio della settimana, dall'altro uno spazio per scrivere tutto quello che ti serve. E poi il piano delle vacanze, l'elenco delle feste, il dizionario e due pagine ogni mese dedicate al planner mensile. Quante cose riuscirai a farci stare? Tantissime!"
     },
     {
         "id": 13,
+        "name":" Aggenda Astronomica",
+        "price": 17,
+        "image": "image/13.png",
+        "description" : "In una mano sta tutto il tuo futuro. No, non parliamo di chiromanzia, ma dell'Agenda 18 mesi Settimanale Small con Notebook, che racchiude in un piccolo spazio 18 mesi ancora da scrivere. Come sarà organizzato questo anno e mezzo? Da un lato avrai il dettaglio della settimana, dall'altro uno spazio per scrivere tutto quello che ti serve. E poi il piano delle vacanze, l'elenco delle feste, il dizionario e due pagine ogni mese dedicate al planner mensile. Quante cose riuscirai a farci stare? Tantissime!"
+    },
+    {
+        "id": 14,
         "name":" Aggenda professionale",
         "price": 25,
-        "image": "image/8.png",
-        "description" : "Bereve descrizione sintetica perche qua si lavora in serie"
+        "image": "image/14.png",
+        "description" : "Per poter andare sempre avanti bisogna imparare a voltare pagina. E con l'Agenda 12 mesi Settimanale è ancora più facile! Le pagine scorrono velocemente...È già settimana prossima. Scopri la comodità della settimana impaginata sull'ampia doppia pagina, che ti permette sia di andare nel dettaglio, sia di avere un'immediata visione d'insieme. E quando finisce... lasciala andare e corri veloce alla prossima."
     }
 
 ]
