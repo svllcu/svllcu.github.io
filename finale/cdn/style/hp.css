@@ -18,3 +18,23 @@ div.primap{
         height: 30px;
     }
 }
+div.recenz{
+    margin-top: 60px;
+    stelle{
+        margin-top: 0px;
+        display: flex;
+        text-align: center;
+    }
+    h2{
+        margin-bottom: 0px;
+    }
+    div.rcz{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 20%;
+        }
+    }
+}
+
