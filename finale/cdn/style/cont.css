@@ -11,10 +11,52 @@ div.mappa{
 div.gen{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 div.formc{
     width: 45%;
     form{
         width: 100%;
     }
+}
+div.pr8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        background-color: white;
+        border-radius: 6px;
+        color: black;
+        margin-left: 5px;
+        font-size: 12pt;
+    }
+    button:hover{
+        background-color: black;
+        border-radius: 6px;
+        color: white;
+        margin-left: 5px;
+    }
+}
+h3{
+    margin: 0;
+}
+svg{
+    margin: 0;
+}
+div.tel{
+    align-items: center;
+    display: flex;
+}
+div.pec{
+    align-items: center;
+    display: flex;
+}
+div.mai{
+    align-items: center;
+    display: flex;
+}
+div.esx{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }

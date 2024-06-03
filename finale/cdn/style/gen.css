@@ -3,6 +3,10 @@ body{
     color: black;
     position: relative;
 }
+.ppg{
+    font-size: 35pt;
+text-decoration: overline;
+}
 body .pplogin{
     display: none;
 }

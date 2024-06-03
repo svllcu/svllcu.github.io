@@ -29,12 +29,76 @@ div.recenz{
         margin-bottom: 0px;
     }
     div.rcz{
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
         display: flex;
+        width: 90%;
         justify-content: space-around;
+        position: relative;
+        height: 120px;
+        overflow: hidden;
         img{
             width: 20%;
+            position: absolute;
+            left: 100%;
+            animation-name: scrollLeft;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
         }
     }
 }
-
+@keyframes scrollLeft{
+    from{}
+    to{
+        left: -200px;
+    }
+}
+.coso1 {
+    animation-delay: calc(20s / 4 * (4 - 1) * -1);
+}
+.coso2 {
+    animation-delay: calc(20s / 4 * (4 - 2) * -1);
+}
+.coso3 {
+    animation-delay: calc(20s / 4 * (4 - 3) * -1);
+}
+.coso4 {
+    animation-delay: calc(20s / 4 * (4 - 4) * -1);
+}
+/* h2.sep{
+    margin-top: 60px;
+} */
+div.bestsel{
+    display: flex;
+    justify-content: space-between;
+    div.item{
+    width: 180px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    img{
+        width: 80%;
+    }
+    div.price{
+        font-size: small;
+        letter-spacing: 7px;
+    }
+    button{
+        background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    }
+    h2{
+        font-weight: 500;
+        font-size: large;
+    }
+    }
+}
