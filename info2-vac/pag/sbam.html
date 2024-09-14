@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizzazione Politica del Trentino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #2b6a91;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #2b6a91;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #2b6a91;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #1f506e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Organizzazione Politica del Trentino</h1>
+    </header>
+
+    <section>
+        <h2>Struttura Autonoma del Trentino</h2>
+        <p>
+            La provincia autonoma di Trento gode di ampie autonomie legislative e amministrative. Il governo provinciale è guidato da un Presidente, che è il capo dell'esecutivo provinciale.
+        </p>
+        <p>
+            Il Consiglio Provinciale di Trento è l'organo legislativo e ha il compito di legiferare su materie di competenza esclusiva e concorrente con lo Stato.
+        </p>
+        <button onclick="mostraDettagli()">Mostra Dettagli</button>
+        <p id="dettagli" style="display: none;">
+            La provincia è organizzata in vari dipartimenti che si occupano di settori specifici come l'economia, l'ambiente, l'istruzione e la sanità, garantendo una gestione locale efficace e vicina ai cittadini.
+        </p>
+    </section>
+
+    <script>
+        function mostraDettagli() {
+            var dettagli = document.getElementById('dettagli');
+            if (dettagli.style.display === 'none') {
+                dettagli.style.display = 'block';
+            } else {
+                dettagli.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

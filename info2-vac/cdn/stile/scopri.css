@@ -1,0 +1,64 @@
+
+.primaparte{
+    width: 100%;
+    .p20{
+        font-size: 30pt;
+        margin-bottom: -10px;
+    }
+    text-align: left;
+    .j{
+        text-align: justify;
+    }
+}
+.ri{
+    text-align: right;
+}
+.secondaparte{
+    width: 100%;
+    img{
+        width: 85%;
+    }
+}
+.parte{
+    /* display: flex;  
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    gap: 40px;
+    grid-template-rows: 400px;
+    align-items: center;
+}
+.secondaparte {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.secondaparte img {
+    width: 85%;
+    transition: opacity 0.5s ease;
+}
+.secondaparte .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 85%;
+    height: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+}
+/* se non si centra cosi non so cosa farci */
+.secondaparte:hover img {
+    opacity: 0.6;
+}
+.secondaparte:hover .overlay {
+    height: 100%;
+    opacity: 1;
+}

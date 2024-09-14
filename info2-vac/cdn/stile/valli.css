@@ -1,0 +1,66 @@
+.scatole{
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* background-color: blue; */
+    margin: 0;
+    svg{
+        margin-bottom: -20px;
+    }
+}
+.scatolo{
+    display: flex;
+    justify-content: space-around;
+}
+/* inizio css per slide copiati da hslide perche ho la necessita di monificare alcune cose */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 40vh; /* vh sarebbe un unita di misura che varia in base allo schermo quindi amnche responsive ;) forse */
+    overflow: hidden;
+}
+.mySlides {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* cosa l'immagine per riempire la paginaa */
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@keyframes fade {
+    from {opacity: 0.8}
+    to {opacity: 1}
+}
+.overmg{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    h1{
+        font-size: 60pt;
+        color: #fff;
+        text-shadow: #000 2px 0 10px;
+        line-height: 120px;
+        text-align: center;
+    }
+}
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light";
+    font-weight: 400;
+    font-style: normal;
+}  
+/* fine css per slide */
+.p20{
+    font-size: 40pt;
+    margin: 0px;
+}

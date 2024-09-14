@@ -1,0 +1,37 @@
+.testp{
+    height: 350px;
+    width: 220px;
+    background-color: rgba(0, 0, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 20%; 
+    height: 40%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.parte{
+    position: relative;
+    width: 100%;
+}
+.d{
+    right: 90px;
+}
+.l{
+    left: 300px;
+}
+.spazio{
+    height: 20px;
+}
+.fle{
+    display: flex;
+}
+img{
+    width: 100%;
+    z-index: -9;
+}
+.up{
+    z-index: 777;
+    width: 100%;
+    background: url(https://www.visittrentino.info/2018/fishing/1304209/image-thumb__1304209__story-headerimage_auto_5e1310e1fe2fba7c6960416050ed348d/35719-roberto-bragotto-val-di-daone-lago-di-copidello-giudicarie.jpg);
+}

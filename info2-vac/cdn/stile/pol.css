@@ -1,0 +1,20 @@
+/* css inutile perche serve solo per formattare le foto, integra in altro */
+.fotine {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.fotoa {
+    text-align: center;
+    width: 45%;
+}
+.foto {
+    width: 20%;
+    height: auto;
+}
+.caption {
+    margin-top: 10px;
+}
+.caption p {
+    margin: 5px 0;
+}

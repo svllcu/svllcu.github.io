@@ -1,0 +1,35 @@
+
+.btn{
+    display: flex;
+    justify-content: center;
+    /* a mali estremi estremi rimedi */
+    a{
+        button{
+            margin-top: 10px;
+            cursor: pointer;
+            display: flex;
+            height: 45px;
+            width: 200px;
+            border-radius: 0;
+            vertical-align: middle;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            /* ma è sempre stato cosi difficile centarer le code????? */
+        }
+    }
+}
+.btn{
+    display: flex;
+        justify-content: center;
+        /* a mali estremi estremi rimedi */
+        a{
+            cursor: pointer;
+            button:hover{
+                background-color: #000;
+                color: white;
+                transition: all 0.3s linear;
+                /* ma è sempre stato cosi difficile centarer le code????? */
+            }
+        }
+}
